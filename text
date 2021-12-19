@@ -1,0 +1,271 @@
+<a href="#" class="logo">
+    <img class="logo_photo" width="60" height="60" alt="">
+
+</a>
+<ul class="nav__menu main-nav" id="nav-menu">
+    <li><a href="#"> البرامج </a>
+        <div class="mega-menu text-right">
+            <ul class="links">
+                <li>
+                    <a href="#testimonials"><i class="far fa-comments fa-fw"></i>البرنامج الشامل للذكاء الاصطناعي وتعلم
+                        الألة</a>
+                </li>
+                <li>
+                    <a href="#team"><i class="far fa-user fa-fw"></i> برنامج تنفيذ المشاريع</a>
+                </li>
+                <li>
+                    <a href="#services"><i class="far fa-building fa-fw"></i> برنامج التجهيز لسوق العمل </a>
+                </li>
+                <li>
+                    <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> Coding with Python 2021 </a>
+                </li>
+                <li>
+                    <a href="#discount"><i class="fas fa-percent fa-fw"></i> Data Science </a>
+                </li>
+
+            </ul>
+            <ul class="links">
+                <li>
+                    <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> Hands-on Machine Learning </a>
+                </li>
+                <li>
+                    <a href="#events"><i class="far fa-calendar-alt fa-fw"></i> Deep Dive into Deep Learning </a>
+                </li>
+                <li>
+                    <a href="#pricing"><i class="fas fa-server fa-fw"></i> Natural Language Processing | NLP</a>
+                </li>
+                <li>
+                    <a href="#video"><i class="far fa-play-circle fa-fw"></i> Computer Vision | CV</a>
+                </li>
+                <li>
+                    <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Power BI </a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li><a href="#">ShAI Blog</a></li>
+    <li><a href="#">Shai Community</a></li>
+    <li><a href="#">Support</a>
+        <div class="mega-menu text-right">
+            <ul class="links">
+                <li>
+                    <a href="#testimonials"><i class="far fa-comments fa-fw"></i> فريق العمل</a>
+                </li>
+                <li>
+                    <a href="#team"><i class="far fa-user fa-fw"></i> اراء الطلاب</a>
+                </li>
+                <li>
+                    <a href="#services"><i class="far fa-building fa-fw"></i> FAQ </a>
+                </li>
+                <li>
+                    <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> برنامج الدعم المالي </a>
+                </li>
+                <li>
+                    <a href="#discount"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
+                </li>
+
+            </ul>
+            <ul class="links">
+                <li>
+                    <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> التطوع </a>
+                </li>
+                <li>
+                    <a href="#events"><i class="fab fa-facebook"></i> Facebook </a>
+                </li>
+                <li>
+                    <a href="#pricing"><i class="fab fa-linkedin"></i> Linkden</a>
+                </li>
+                <li>
+                    <a href="#video"><i class="fab fa-youtube"></i> Youtube</a>
+                </li>
+                <li>
+                    <a href="#stats"><i class="fas fa-phone"></i> Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Megamenu -->
+    </li>
+
+    <li><a href="#">Events</a></li>
+    <li><a href="#">مجتمع شاي</a></li>
+    <li><a href="#">sign up</a></li>
+    <li><a href="#" class="btn">Login</a></li>
+
+    <i class="ri-close-line nav__close" id="nav-close"></i>
+
+</ul>
+    <div class="comming-container">
+        <div class="content">
+            <h3 class="title"> دورة علم البيانات قريبا </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatem rerum corrupti, quibusdam tempora
+                odit esse et
+                perferendis. Omnis quam ea id ad numquam quasi?
+    
+            </p>
+            <div class="count-down">
+                <div class="box" dir="rtl">
+                    <h3 id="day">15 <br> <span>day</span> </h3>
+                </div>
+                <div class="box">
+                    <h3 id="hour">12<br> <span>hour</span> </h3>
+                </div>
+                <div class="box">
+                    <h3 id="minute">45 <br><span>minute</span></h3>
+                </div>
+                <div class="box">
+                    <h3 id="second">15<br> <span>second</span></h3>
+                </div>
+            </div>
+    
+            <a href="" class="btn-start"> طلب تنبيه </a>
+    
+        </div>
+        <div class="about__img">
+            <div class="about__img-overlay">
+                <img src="assets/images/office.jpg" alt="" class="about__img-one">
+            </div>
+    
+            <div class="about__img-overlay">
+                <img src="assets/images/classroom.jpg" alt="" class="about__img-two">
+            </div>
+        </div>
+    </div>
+    /*
+    .comming-container{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    padding: 20px 7%;
+    min-height:100vh;
+    gap:15px;
+    padding-bottom:80px;
+    }
+    
+    .comming-container .content{
+    flex:1 1 400px;
+    }
+    
+    
+    .about__img {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .about__img-overlay {
+    overflow: var(--img-hidden);
+    }
+    
+    .about__img-one {
+    width: 130px;
+    }
+    
+    .about__img-two {
+    width: 180px;
+    }
+    
+    .about__img-one,
+    .about__img-two {
+    transition: var(--img-transition);
+    }
+    
+    .about__img-one:hover,
+    .about__img-two:hover {
+    transform: var(--img-scale);
+    }
+
+    .comming-container .content .title{
+    font-size:45px;
+    color:var(--dark-light);
+    }
+    
+    
+    
+    .comming-container .content p{
+    color:var(--dark-light);
+    padding:5px 0;
+    }
+    
+    .comming-container .content .count-down{
+    display:flex;
+    gap:15px;
+    color:var(--dark-light);
+    
+    padding:10px 0;
+    }
+    .comming-container .content .count-down .box{
+    padding:2px;
+    background: var(--white);
+    border:1px solid var(--white-light);
+    text-align:center;
+    flex:1 1 20px;
+    }
+    .comming-container .content .count-down .box h3{
+    color:var(--dark);
+    font-size:35px;
+    }
+    
+    .comming-container .content .count-down .box span{
+    color:var(--main-color-alt);
+    font-size:15px;
+    }
+    
+    .comming-container .content .btn{
+    display:inline-block;
+    padding:8px 50px;
+    margin:10px 0;
+    font-size:16px;
+    background: var(--main-color-alt);
+    color: var(--white);
+    transition:var(--main-transition);
+    }
+    
+    .comming-container .content .btn:hover{
+    letter-spacing:2px;
+    
+    }
+
+
+
+    <div class="row">
+                        <div class="col-md-4">
+                            <div class="program-header">
+                                <div class="box">
+                                    <div class="video">
+                                        <i class="fas fa-play"></i>
+                                        <video src="assets/videos/ai.mp4"></video>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-md-8">
+                                <div class="d-flex content">
+                                    <h3>البرنامج الشامل للذكاء الاصطناعي وتعلم الألة</h3>
+                                    <p>by john deo</p>
+                                    <ul>
+                                        <li>
+                                            <span>Hours</span>150 hour
+                                        </li>
+                                        <li>
+                                            <span>Projects</span>+20
+                                        </li>
+                                        <li>
+                                            <span>Coures</span> 7 Courses
+                                        </li>
+                                        <li>
+                                            <span>lorem</span>Online or Face2Face
+                                        </li>
+                                        <li>
+                                            <span>Certificate</span>Yes
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                        </div>
